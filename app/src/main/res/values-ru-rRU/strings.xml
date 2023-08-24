@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LanguageChangeTemp</string>
+    <string name="default_language">Дефальт язык</string>
+    <string name="english">Английсктй</string>
+    <string name="russian">Русский</string>
+    <string name="languages">Языки:</string>
+    <string name="hebrew">Иврит</string>
+    <string name="hello_world">Привет мир!</string>
+    <string name="second_activity">Вторая страницв</string>
+</resources>
