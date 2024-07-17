@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LanguageChangeTemp</string>
+    <string name="app_name" translatable="false">LanguageChangeTemp</string>
     <string name="default_language">Default</string>
     <string name="english">English</string>
     <string name="russian">Russian</string>
@@ -7,4 +7,5 @@
     <string name="hebrew">Hebrew</string>
     <string name="hello_world">Hello World!</string>
     <string name="second_activity">Second Activity</string>
+    <string name="japanese">Japanese</string>
 </resources>

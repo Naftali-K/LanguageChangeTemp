@@ -27,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView helloWorldTv;
     private RadioGroup languagesRadioGroup;
-    private RadioButton defaultLanguageRadioButton, englishRadioButton, russianRadioButton, hebrewRadioButton;
+    private RadioButton defaultLanguageRadioButton, englishRadioButton, russianRadioButton,
+            hebrewRadioButton, japaneseRadioButton;
     private Button secondActivityBtn;
 
     private SharedPreferences sharedPreferences;
@@ -73,6 +74,10 @@ public class MainActivity extends AppCompatActivity {
                         Log.d(TAG, "onCheckedChanged: Hebrew");
                         setLanguage("iw");
                         break;
+                    case R.id.japanese_radio_button:
+                        Log.d(TAG, "onCheckedChanged: Japanese");
+                        setLanguage("ja");
+                        break;
                     default:
                         Log.d(TAG, "onCheckedChanged: Wrong selected");
                 }
@@ -94,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
         englishRadioButton = findViewById(R.id.english_radio_button);
         russianRadioButton = findViewById(R.id.russian_radio_button);
         hebrewRadioButton = findViewById(R.id.hebrew_radio_button);
+        japaneseRadioButton = findViewById(R.id.japanese_radio_button);
         secondActivityBtn = findViewById(R.id.second_activity_btn);
     }
 
@@ -146,6 +152,10 @@ public class MainActivity extends AppCompatActivity {
         }
         if (language.equals("ru")) {
             russianRadioButton.setChecked(true);
+            return;
+        }
+        if (language.equals("ja")) {
+            japaneseRadioButton.setChecked(true);
             return;
         }
     }

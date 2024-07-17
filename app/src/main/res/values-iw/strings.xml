@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LanguageChangeTemp</string>
     <string name="default_language">Default</string>
     <string name="english">אנגליט</string>
     <string name="russian">רוסית</string>
@@ -8,4 +7,5 @@
     <string name="hebrew">עברית</string>
     <string name="hello_world">שלום העולם!</string>
     <string name="second_activity">עמוד שני</string>
+    <string name="japanese">יפנית</string>
 </resources>
